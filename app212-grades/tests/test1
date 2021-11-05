@@ -1,0 +1,108 @@
+ Student jyoti = new Student("Jyoti Devi", 22041474);
+jyoti.print();
+ Student ID: 22041474, Jyoti Devi
+Course datasci = new Course("BB1DSC1", "Data Science");
+jyoti.enrol(datasci);
+jyoti.printCourse();
+ Student ID: 22041474, Jyoti Devi
+
+ Course BB1DSC1: Data Science
+
+Module co452 = new Module("CO452", "Programming Concepts");
+datasci.addModule(co452);
+datasci.printModules();
+
+datasci.print();
+
+ Course BB1DSC1: Data Science
+
+datasci.printModules();
+
+ModuleMark jyotico452 = new ModuleMark(co452);
+jyotico452.setMark(90);
+Student shakir = new Student("Shakir", 22041475);
+ModuleMark shakirco452mark = new ModuleMark(co452);
+shakirco452mark.setMark(60);
+jyoti.addMark(jyotico452);
+jyoti.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22041474, Jyoti Devi
+
+ Course BB1DSC1: Data Science
+
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+shakir.addMark(shakirco452mark);
+Student Jyoti = new Student();
+Course datascience = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+datascience.addModule(co452);
+Jyoti.enrol(datascience);
+Jyoti.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22041474, Jyoti Devi
+
+ Course G400: BSc Data Science
+
+ CO452: 	Programming Concepts
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Module co456 = new Module("CO456", "Web Depelopment");
+datascience.addModule(co456);
+Jyoti.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22041474, Jyoti Devi
+
+ Course G400: BSc Data Science
+
+ CO452: 	Programming Concepts
+ CO456: 	Web Depelopment
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Student jyoti = new Student();
+Course datasci = new Course();
+Module co452 = new Module("CO452", "Programming Concept");
+datasci.addModule(co452);
+jyoti.enrol(datasci);
+jyoti.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22041474, Jyoti Devi
+
+ Course BB1DSC1: BSc Data Science
+
+ CO452: 	Programming Concept	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
